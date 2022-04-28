@@ -1,9 +1,8 @@
 import 'package:bhandara/Utils/Colors.dart';
 import 'package:flutter/material.dart';
-
 import 'UI/SplashScreen.dart';
 
-void main() {
+Future<void> main() async {
   runApp(const MyApp());
 }
 
