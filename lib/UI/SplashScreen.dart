@@ -1,5 +1,7 @@
 import 'dart:async';
 
+import 'package:bhandara/Method/Method.dart';
+import 'package:bhandara/UI/LoginScreen.dart';
 import 'package:bhandara/Utils/Colors.dart';
 import 'package:bhandara/Utils/Constants.dart';
 import 'package:bhandara/Utils/Images.dart';
@@ -18,6 +20,8 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
     super.initState();
+    Timer(Duration(seconds: 5), () =>
+        Method.goAndReplace(context, LoginScreen()));
   }
 
   @override
