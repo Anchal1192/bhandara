@@ -1,4 +1,3 @@
-import 'dart:async';
 import 'package:bhandara/Utils/Colors.dart';
 import 'package:bhandara/Utils/Constants.dart';
 import 'package:bhandara/Utils/Images.dart';
@@ -58,7 +57,6 @@ class _SplashScreenState extends State<SplashScreen> {
         ),
       ),
       bottomSheet: Container(
-        //color: AppColors.transparent,
         height: 50,
         child: Center(
           child: Text(
