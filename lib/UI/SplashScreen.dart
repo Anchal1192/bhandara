@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:bhandara/Utils/Colors.dart';
 import 'package:bhandara/Utils/Constants.dart';
 import 'package:bhandara/Utils/Images.dart';
@@ -22,8 +24,14 @@ class _SplashScreenState extends State<SplashScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        width: MediaQuery.of(context).size.width,
-        height: MediaQuery.of(context).size.height,
+        width: MediaQuery
+            .of(context)
+            .size
+            .width,
+        height: MediaQuery
+            .of(context)
+            .size
+            .height,
         decoration: BoxDecoration(
           image: DecorationImage(
             image: AssetImage(Images.splashScreen),

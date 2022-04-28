@@ -1,3 +1,4 @@
+import 'package:bhandara/Utils/Colors.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -40,10 +41,10 @@ class _MyTextFieldState extends State<MyTextField> {
       width: double.infinity,
 
       decoration: BoxDecoration(
-        color: Colors.grey[300],
+        color: AppColors.textFieldBorder,
         borderRadius:  BorderRadius.all(const Radius.circular(8)),
         boxShadow: [
-          BoxShadow(color: Colors.grey.withOpacity(0.1), spreadRadius: 1, blurRadius: 3, offset: Offset(0, 1)) // changes position of shadow
+          BoxShadow(color: AppColors.grey.withOpacity(0.1), spreadRadius: 1, blurRadius: 3, offset: Offset(0, 1)) // changes position of shadow
         ],
       ),
       child: TextField(
@@ -63,11 +64,11 @@ class _MyTextFieldState extends State<MyTextField> {
 
         },
         inputFormatters: widget.textInputFormatter,
-        cursorColor: Colors.amber,
+        cursorColor: AppColors.white,
         decoration: InputDecoration(
           hintText: widget.hintText,
           hintStyle: TextStyle(
-            color: Colors.grey[600],
+            color: AppColors.textFieldBg,
           ),
           contentPadding: EdgeInsets.symmetric(vertical: 10.0, horizontal: 10),
           isDense: true,
