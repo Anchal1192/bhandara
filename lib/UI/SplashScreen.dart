@@ -3,7 +3,7 @@ import 'dart:async';
 import 'package:bhandara/Utils/Colors.dart';
 import 'package:bhandara/Utils/Constants.dart';
 import 'package:bhandara/Utils/Images.dart';
-import 'package:bhandara/Utils/Texts.dart';
+import 'package:bhandara/Utils/String.dart';
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 
