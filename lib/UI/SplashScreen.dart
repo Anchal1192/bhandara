@@ -46,7 +46,7 @@ class _SplashScreenState extends State<SplashScreen> {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   Text(
-                    AppText.splashTitle,
+                    AppString.splashTitle,
                     style: TextStyle(
                       color: AppColors.white,
                       fontSize: 50,
@@ -68,7 +68,7 @@ class _SplashScreenState extends State<SplashScreen> {
         height: 50,
         child: Center(
           child: Text(
-            AppText.versionText + AppConstant.version,
+            AppString.versionText + AppConstant.version,
             style: TextStyle(
               color: AppColors.white,
               fontSize: 20,
